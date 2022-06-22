@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> hospitals</title> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/hospital.css') }}">
+<body>
+    <h1 style="color: white">𝘓𝘪𝘴𝘵 𝘰𝘧 𝘋𝘰𝘤𝘵𝘰𝘳𝘴</h1>
+    <div class="hbox">
+        {% for i in data %}
+        <h2>↦{{ i[0] }}</h2>
+
+        <div class="button">
+            <a href="doct.html" class="btn">Book appointment</a>
+
+        </div>
+        {% endfor %}
+    </div>
+    
+</body>
+</head>
+</html>

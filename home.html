@@ -1,0 +1,34 @@
+<html>
+<head>
+   
+<title>Svasthya</title>
+<link href="{{ url_for('static', filename='styles/home.css') }}" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+     <header>
+        <div class="hero">
+            <form method="post">
+            
+        <h1>𝐒𝐯𝐚𝐬𝐭𝐡𝐲𝐚</h1>
+         
+        <h3>Please take care of your health!</h3>
+            <div class="box">
+            
+            <label for="problem"><b>𝐏𝐫𝐨𝐛𝐥𝐞𝐦</b></label>
+             <select style="padding: 4px" name="problem" id="problem">
+                 <option name="">Diseases</option>
+                <option name="1">Cancer</option>
+                 <option name="2">Covid-19</option>
+                 <option name="3">Dengue</option>
+                 <option name="4">Cardiology</option>
+                 <option name="5">Malaria</option>
+             </select>
+    
+            <input type="submit" name="" value="Search">
+         </div>
+            </form>
+         </div>
+    </header>
+</body>    
+</html>

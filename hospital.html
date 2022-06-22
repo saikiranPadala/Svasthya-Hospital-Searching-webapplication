@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> hospitals</title> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/hospital.css') }}">
+<body>
+
+    <h1 style="color: white">𝘓𝘪𝘴𝘵 𝘰𝘧 𝘏𝘰𝘴𝘱𝘪𝘵𝘢𝘭𝘴</h1>
+    <form action="/hospitals" method="POST">
+    <div class="hbox">
+        {% for s in data %}
+        <h2>{{ s[0] }}</h2>
+
+        {% endfor %}
+    <label for="h"><b>Choose hospital</b></label>
+             <select style="padding: 5px" name="h" id="h">
+                <option name="">Hospitals</option>
+                 {% for i in data %}
+                <option name="">{{ i[0] }}</option>
+                 {% endfor%}
+             </select>
+
+            <input type="submit" name="" value="Select">
+    </div>
+
+    </form>
+</body>
+</head>
+</html>

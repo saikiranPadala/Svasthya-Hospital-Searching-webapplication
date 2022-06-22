@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://media.istockphoto.com/photos/heart-beat-line-end-of-life-picture-id930392272?k=20&m=930392272&s=170667a&w=0&h=goHjUyAu8I7QsC8HfZICJga7xPy7mtyCSayDKA92Pyw=);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    position: fixed;
+}
+
+
+
+body
+{
+    font-family: monospace;
+}
+
+h1
+{
+    color: aliceblue;
+    font-size: 100px;
+    font-style:italic;
+    text-align: center;
+    margin-top: 10px ;
+    float: center;
+
+    
+}
+
+h3
+{
+    color: snow;
+    font-size: 40px;
+    font-style:oblique;
+    text-align: center;
+    margin-top: 100px ;
+    float: center;
+
+}
+.box{
+    width:380px;
+    height:100px;
+    background-color:  cadetblue;
+    top:72%;
+    left:85%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50%;
+}
+.box input{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.box label{
+    font-size: 23px;
+}
+
+.box input[type="submit"]
+{
+    border:none;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 18px;
+    height: 25px;
+    width: 70px;
+    border-radius: 20px;
+}
+.box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: orange;
+    color:black;
+}
+
+.cl
+{
+    position: relative;
+    float: inherit;
+}
+
+
